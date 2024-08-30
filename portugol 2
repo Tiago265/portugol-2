@@ -1,0 +1,23 @@
+programa {
+  funcao inicio() {
+    inteiro dia
+    escreva("digite um numero de 1 a 7:\n")
+    leia(dia)
+
+    se(dia == 1){
+    escreva("domingo\n")
+      }senao se(dia == 2){
+      escreva("segunda\n")
+      }senao se(dia == 3){
+      escreva("terça\n")
+      }senao se(dia == 4){
+      escreva("quarta\n")
+      }senao se(dia == 5){
+      escreva("quinta\n")
+      }senao se(dia == 6){
+      escreva("sexta\n")
+      }senao se(dia == 7){
+      escreva("sabádo\n")
+    }
+  }
+}
